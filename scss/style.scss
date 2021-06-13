@@ -66,8 +66,6 @@ a {
         .site-navigation-link {
             @extend %primary-font-family;
         }
-
-
     }
 
     .phone-number-link {
@@ -223,11 +221,6 @@ a {
 
                     }
                 }
-            }
-
-            .break {
-                flex-basis: 100%;
-                width: 0;
             }
         }
 
@@ -394,7 +387,7 @@ a {
             width: 45px;
             height: 30px;
             border: 1px solid $primary-color;
-
+            outline: none;
             appearance: none;
             border-radius: 0;
             cursor: pointer;
@@ -429,6 +422,7 @@ a {
             cursor: pointer;
             border: 0;
             padding: 0;
+            outline: none;
         }
     }
 }
@@ -537,7 +531,7 @@ a {
             width: 45px;
             height: 30px;
             border: 1px solid $primary-color;
-
+            outline: none;
             appearance: none;
             border-radius: 0;
             cursor: pointer;
@@ -627,6 +621,7 @@ a {
             color: #fff;
             padding: 20px 150px;
             cursor: pointer;
+            outline: none;
         }
     }
     .copyright {

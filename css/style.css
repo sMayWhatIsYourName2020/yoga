@@ -252,12 +252,6 @@ a {
   background-color: #8E80A9;
 }
 
-.orientation .orientation-list .orientation-card .break {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  width: 0;
-}
-
 .orientation .orientation-list .orientation-card:first-child {
   width: 350px;
 }
@@ -437,6 +431,7 @@ a {
   width: 45px;
   height: 30px;
   border: 1px solid #8E80A9;
+  outline: none;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -478,6 +473,7 @@ a {
   cursor: pointer;
   border: 0;
   padding: 0;
+  outline: none;
 }
 
 .gallery {
@@ -608,6 +604,7 @@ a {
   width: 45px;
   height: 30px;
   border: 1px solid #8E80A9;
+  outline: none;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -723,6 +720,7 @@ a {
   color: #fff;
   padding: 20px 150px;
   cursor: pointer;
+  outline: none;
 }
 
 .main-footer .copyright {
